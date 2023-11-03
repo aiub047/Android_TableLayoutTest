@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tblLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow android:padding="5dp">
+
+            <EditText
+                android:id="@+id/txtAndroidVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_span="2"
+                android:autofillHints="Enter Android Version"
+                android:hint="@string/lblAndroidVersion"
+                android:inputType="text"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/txtAndroidCodeName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_span="2"
+                android:autofillHints="Enter Android Code Name"
+                android:hint="@string/lblAndroidCodeName"
+                android:inputType="text"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addData"
+                android:layout_span="2"
+                android:onClick="funAdd"
+                android:text="@string/lblAddButton" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:gravity="center_horizontal"
+                android:text="@string/lblViewAndroidInfo" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

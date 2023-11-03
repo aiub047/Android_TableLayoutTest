@@ -1,0 +1,14 @@
+<!-- res/drawable/table_row_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color -->
+    <item android:drawable="@android:color/white" />
+    <!-- Border color -->
+    <item>
+        <shape>
+            <solid android:color="#FFFFFF" /> <!-- Replace with your desired background color -->
+            <stroke
+                android:width="1dp"
+                android:color="#808080" /> <!-- Replace with your desired border color and width -->
+        </shape>
+    </item>
+</layer-list>

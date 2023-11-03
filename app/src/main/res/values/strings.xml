@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TableLayoutTest</string>
+    <string name="lblAndroidVersion">Enter Android version</string>
+    <string name="lblAndroidCodeName">Enter Android Code Name</string>
+    <string name="lblAddButton">ADD</string>
+    <string name="lblCodeName">Code Name</string>
+    <string name="lblViewAndroidInfo">View Android info</string>
+</resources>
